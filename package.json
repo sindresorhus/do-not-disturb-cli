@@ -1,0 +1,40 @@
+{
+	"name": "do-not-disturb-cli",
+	"version": "0.0.0",
+	"description": "Control the macOS `Do Not Disturb` feature from the command-line",
+	"license": "MIT",
+	"repository": "sindresorhus/do-not-disturb-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"do-not-disturb": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"macos",
+		"swift",
+		"notifications"
+	],
+	"dependencies": {
+		"@sindresorhus/do-not-disturb": "^0.1.0",
+		"meow": "^4.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.9.0",
+		"xo": "*"
+	}
+}
