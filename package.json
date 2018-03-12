@@ -10,7 +10,8 @@
 		"url": "sindresorhus.com"
 	},
 	"bin": {
-		"do-not-disturb": "cli.js"
+		"do-not-disturb": "cli.js",
+		"dnd": "dnd.js"
 	},
 	"engines": {
 		"node": ">=8"
@@ -19,7 +20,8 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"cli.js"
+		"cli.js",
+		"dnd.js"
 	],
 	"keywords": [
 		"cli-app",

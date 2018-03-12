@@ -17,6 +17,8 @@ const cli = meow(`
 	  $ do-not-disturb on
 	  $ do-not-disturb status
 	  on
+
+	Use \`$ dnd\` to quickly toggle
 `);
 
 const [command] = cli.input;

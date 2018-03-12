@@ -28,15 +28,8 @@ $ do-not-disturb --help
     $ do-not-disturb on
     $ do-not-disturb status
     on
-```
 
-
-## Tip
-
-Add a shell alias:
-
-```sh
-alias dnd='do-not-disturb toggle'
+  Use `$ dnd` to quickly toggle
 ```
 
 
