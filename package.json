@@ -1,6 +1,6 @@
 {
 	"name": "do-not-disturb-cli",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Control the macOS `Do Not Disturb` feature from the command-line",
 	"license": "MIT",
 	"repository": "sindresorhus/do-not-disturb-cli",
