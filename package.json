@@ -29,7 +29,7 @@
 		"notifications"
 	],
 	"dependencies": {
-		"@sindresorhus/do-not-disturb": "^0.1.0",
+		"@sindresorhus/do-not-disturb": "^0.2.0",
 		"meow": "^4.0.0"
 	},
 	"devDependencies": {
