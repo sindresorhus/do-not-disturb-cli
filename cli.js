@@ -23,20 +23,22 @@ const cli = meow(`
 
 const [command] = cli.input;
 
-switch (command) {
-	case 'on':
-		doNotDisturb.enable();
-		break;
-	case 'off':
-		doNotDisturb.disable();
-		break;
-	case 'toggle':
-		doNotDisturb.toggle();
-		break;
-	case 'status':
-		console.log(doNotDisturb.isEnabled() ? 'on' : 'off');
-		break;
-	default:
-		cli.showHelp();
-}
+(async () => {
+	switch (command) {
+		case 'on':
+			await doNotDisturb.enable();
+			break;
+		case 'off':
+			await doNotDisturb.disable();
+			break;
+		case 'toggle':
+			await doNotDisturb.toggle();
+			break;
+		case 'status':
+			console.log(await doNotDisturb.isEnabled() ? 'on' : 'off');
+			break;
+		default:
+			cli.showHelp();
+	}
+})();
 

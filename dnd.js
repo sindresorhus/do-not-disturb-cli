@@ -3,7 +3,7 @@
 const meow = require('meow');
 const doNotDisturb = require('@sindresorhus/do-not-disturb');
 
-const cli = meow(`
+meow(`
 	Usage
 	  $ dnd
 
