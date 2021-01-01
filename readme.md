@@ -1,4 +1,4 @@
-# do-not-disturb-cli [![Build Status](https://travis-ci.org/sindresorhus/do-not-disturb-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/do-not-disturb-cli)
+# do-not-disturb-cli
 
 > Control the macOS `Do Not Disturb` feature from the command-line
 
