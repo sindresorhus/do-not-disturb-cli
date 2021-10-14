@@ -2,13 +2,11 @@
 
 > Control the macOS `Do Not Disturb` feature from the command-line
 
-
 ## Install
 
+```sh
+npm install --global do-not-disturb-cli
 ```
-$ npm install --global do-not-disturb-cli
-```
-
 
 ## Usage
 
@@ -32,12 +30,6 @@ $ do-not-disturb --help
   Use `$ dnd` to quickly toggle
 ```
 
-
 ## Related
 
 - [do-not-disturb](https://github.com/sindresorhus/do-not-disturb) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const doNotDisturb = require('@sindresorhus/do-not-disturb');
+import meow from 'meow';
+import doNotDisturb from '@sindresorhus/do-not-disturb';
 
 const cli = meow(`
 	Usage
@@ -19,7 +18,9 @@ const cli = meow(`
 	  on
 
 	Use \`$ dnd\` to quickly toggle
-`);
+`, {
+	importMeta: import.meta,
+});
 
 const [command] = cli.input;
 

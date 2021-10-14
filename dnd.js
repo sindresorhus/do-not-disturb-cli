@@ -1,13 +1,14 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const doNotDisturb = require('@sindresorhus/do-not-disturb');
+import meow from 'meow';
+import doNotDisturb from '@sindresorhus/do-not-disturb';
 
 meow(`
 	Usage
 	  $ dnd
 
 	Toggle "Do Not Disturb"
-`);
+`, {
+	importMeta: import.meta,
+});
 
 doNotDisturb.toggle();
