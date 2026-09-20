@@ -2,6 +2,11 @@
 
 > Control the macOS `Do Not Disturb` feature from the command-line
 
+> [!WARNING]
+> This package is archived. It does not work on macOS 11 or later.
+>
+> macOS 11 replaced Do Not Disturb with Focus, and Apple ships no public API to set it. Use a shortcut with the built-in "Set Focus" action instead: `shortcuts run "<shortcut name>"`.
+
 ## Install
 
 ```sh
@@ -32,4 +37,4 @@ $ do-not-disturb --help
 
 ## Related
 
-- [do-not-disturb](https://github.com/sindresorhus/do-not-disturb) - API for this module
+- [do-not-disturb](https://github.com/sindresorhus/do-not-disturb) - API for this package
